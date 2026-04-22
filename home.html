@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Connect - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<header>
+  <div class="logo">College Connect</div>
+  <nav class="nav-links" id="navLinks">
+    <ul>
+      <li><a href="home.html" class="active">Home</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- Banner -->
+  <section class="header">
+    <h1>Welcome to College Connect</h1>
+    <p>Knowledge, skills, and opportunities</p>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <div class="feature-card">
+      <h3>Easy Access</h3>
+      <p>All college information in one simple platform.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Stay Updated</h3>
+      <p>Announcements, events, and blog updates at any time.</p>
+    </div>
+    <div class="feature-card">
+      <h3>For Everyone</h3>
+      <p>Designed for students, teachers, and administrators.</p>
+    </div>
+  </section>
+
+<!-- About + Login + Video -->
+<section class="about">
+
+  <div class="login-box">
+    <form action="login.php" method="POST">
+
+      <div class="login-icon">
+        <img src="lock.png" alt="lock" />
+      </div>
+
+      <!-- EMAIL FIELD -->
+      <div class="input-group">
+        <input type="text" id="emailField" name="email" placeholder="Email" required>
+      </div>
+
+      <!-- ID FIELD -->
+      <div class="input-group">
+        <input type="password" id="idField" name="password" placeholder="ID" required>
+      </div>
+
+      <button type="submit">SIGN IN</button>
+
+      <p class="forgot">Forgot the password? <a href="#">Click here</a></p>
+
+    </form>
+  </div>
+
+  <!-- Video -->
+  <div class="video-card">
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/s96e1G3WvEI?si=biiEaXnB3_h7YBLt"
+              title="YouTube video player"
+              allowfullscreen></iframe>
+    </div>
+  </div>
+
+</section>
+
+  <!-- Media Grid Section -->
+  <section class="media-grid">
+    <h2>Latest Updates</h2>
+
+    <div class="media-grid-container">
+
+      <!-- LinkedIn -->
+      <div class="media-card">
+        <h3>LinkedIn</h3>
+        <div class="media-frame">
+          <iframe
+            src="https://www.linkedin.com/embed/feed/update/urn:li:share:7390113893882286080?collapsed=1"
+            frameborder="0" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <!-- X (Twitter) -->
+      <div class="media-card">
+        <h3>X (Twitter)</h3>
+        <div class="media-frame">
+          <blockquote class="twitter-tweet">
+            <a href="https://twitter.com/COEKSA/status/1986340945164378494"></a>
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- Instagram -->
+      <div class="media-card">
+        <h3>Instagram</h3>
+        <div class="media-frame">
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/p/DPyc7V4jGhw/"
+            data-instgrm-version="14"></blockquote>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>| 09998765 | collegeconnect@cc.edu.sa</p>
+  <p>&copy; 2025 College Connect. All Rights Reserved.</p>
+</footer>
+
+<script async src="https://platform.twitter.com/widgets.js"></script>
+<script async src="//www.instagram.com/embed.js"></script>
+
+</body>
+</html>
